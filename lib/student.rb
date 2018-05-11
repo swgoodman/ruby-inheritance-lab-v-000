@@ -5,5 +5,9 @@ class Student < User
     @knowledge = []
   end
 
+  def knowledge
+    @knowledge.sample
+  end
+
 
 end
