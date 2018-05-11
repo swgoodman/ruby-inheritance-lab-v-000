@@ -6,7 +6,7 @@ class Student < User
   end
 
   def knowledge
-    @knowledge.sample
+    self.knowledge.sample
   end
 
 
