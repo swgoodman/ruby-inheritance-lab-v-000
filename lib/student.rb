@@ -6,7 +6,7 @@ class Student < User
   end
 
   def knowledge
-    self.knowledge.sample
+    knowledge.sample
   end
 
 
